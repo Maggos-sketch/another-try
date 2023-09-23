@@ -7,3 +7,80 @@ body{
     margin: 0;
    
 }
+
+.header_block{
+    background: #21222A;
+    height: 91px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 26px;
+    padding-right: 26px;
+    
+}
+
+.header_block_logo{
+    width: 158px;
+    height: 28.9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_block_logo__title{
+    margin: 0;
+    font: normal 700 22px 'Inter', sans-serif;
+    color: #61DAFB;
+    
+}
+
+.header_block__course{
+    width: 259px;
+    height: 21px;
+    font: normal 600 16px 'Inter', sans-serif;
+    color: #DEEBF8;
+    text-align: right;
+}
+
+.main_container{
+    background: #282D35;
+    height: 459px;
+    padding-top: 57px;
+}
+
+.main_set{
+    color: #fff;
+}
+.main_container__title{
+    margin: 0;
+    margin-left: 27px;
+    font: normal 700 39px 'Inter', sans-serif;
+    letter-spacing: -2px;
+}
+
+.list_and_image{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list_ul{
+    width: 390px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.li_style{
+    font: normal 400 16px 'Inter', sans-serif;
+
+}
+
+li::marker{
+    color: #61DAFB;
+    
+}
